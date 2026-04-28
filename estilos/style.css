@@ -32,6 +32,25 @@ section#telefone {
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+section#redes-s  img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000096;
+    box-sizing: border-box;
+}
+section#redes-s img:hover{
+    border: 2px solid #ffffff85;
+    transform: translate( -3px, -3px);
+    box-shadow: 5px 5px 10px #00000098;
+    transition: transform .4s;
+
+}
+section#redes-s {
+    text-align: right;
+}
+
+
 iframe#tela {
     position: relative;
     top: 80px;
